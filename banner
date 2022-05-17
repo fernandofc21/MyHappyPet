@@ -1,0 +1,18 @@
+<div class="banner-clienteestrella border-radius-cards border-shadow-cards">
+    <div class="text-info">
+        <p class="text-1">Conviértete en un</p>
+        <p class="text-2">Cliente Estrella de tiendamia</p>
+    </div>
+    <div class="boxes">
+        <span class="box-svg box_1 "></span>
+        <span class="box-svg box_2 "></span>
+        <span class="box-svg box_3 "></span>
+        <span class="text-3">=</span>
+        <span class="box-svg last-box"></span>
+    </div>
+    <div class="text-info">
+        <p class="text-1">Cada 3 pedidos que realices </p>
+        <p class="text-2">¡Descuenta 1kg gratis en el próximo!</p>
+    </div>
+    <a class="button" href="https://tiendamia.com/cliente-estrella">Más información</a>
+</div>

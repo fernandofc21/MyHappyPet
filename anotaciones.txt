@@ -1,0 +1,23 @@
+Index:
+    -navbar (x)
+    -carousel (X)
+    -Nuestros productos (X)
+    -Retira - Envios - Atencion cliente/Servicio
+
+Servicio
+Quienes somos
+Contacto
+
+
+
+-----------
+Fuentes: 
+    font-family: 'Poppins', sans-serif; font-weight: bold;
+
+Paleta de colores:
+    .degradado_azul_verde{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,199,72,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+

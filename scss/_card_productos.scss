@@ -1,0 +1,111 @@
+
+.card_producto{
+    position: relative;
+    width: 320px;
+    height: 420px;
+    background: #122936;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 -1px 30px 0 rgba(0, 0, 0, 0.20), 0 2px 3px 0 rgba(0, 0, 0, 0.10%);
+}
+
+
+.card_producto::before {
+    content: "ALGO AQUI";
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,199,72,1) 0%, rgba(0,212,255,1) 100%);
+    transform: skewY(345deg);
+    transition: 0.5s;
+  }
+
+.card_producto:hover::before {
+    top: -70%;
+    transform: skewY(390deg);
+  }
+  
+.card_producto::after {
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 6em;
+    color: rgba(0, 0, 0, 0.1);
+  }
+
+.card_producto .img_box{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.card_producto .img_box img {
+    max-width: 100%;
+
+    transition: .5s;
+}
+
+.card_producto:hover .img_box img {
+    max-width: 60%;
+
+}
+
+.card_producto:hover .img_box .cannes {
+    max-width: 40%;
+
+}
+
+.card_producto .content_box {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.card_producto .content_box h3 {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.card_producto .content_box .price {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.buy_button{
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    color: #fff;
+    background: #2196f3;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+
+.card_producto:hover .content_box .buy_button {
+    top: 0;
+    opacity: 1;
+  }
+  
