@@ -206,3 +206,16 @@ body {
 .text-uppercase {
   display: flex;
   justify-content: center; }
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px; }
+
+.footer-heading a {
+  color: white; }
+
+.rrss {
+  color: white; }
