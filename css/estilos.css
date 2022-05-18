@@ -190,3 +190,19 @@ body {
 .about {
   margin-top: 60px;
   margin-bottom: 60px; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #020024 0%, #0fc748 0%, #00d4ff 100%);
+  margin-top: 40px; }
+
+.list-unstyled {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.text-uppercase {
+  display: flex;
+  justify-content: center; }

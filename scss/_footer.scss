@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,199,72,1) 0%, rgba(0,212,255,1) 100%);
+    margin-top: 40px;
+}
+
+.list-unstyled{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+.text-uppercase{
+  display: flex;
+  justify-content: center;
+}
